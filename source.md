@@ -45,13 +45,13 @@ class: center, middle
 
 ## 化学
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Maitotoxin_2D_structure.svg" height=574 width=1600 style="margin: 0px 20px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Maitotoxin_2D_structure.svg" height=287 width=800 style="margin: 0px 20px">
 
 ---
 
 ## 化学
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Maitotoxin-3D-vdW.png" height=772 width=1600 style="margin: 0px 20px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Maitotoxin-3D-vdW.png" height=386 width=800 style="margin: 0px 20px">
 
 ---
 
