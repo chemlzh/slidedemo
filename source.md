@@ -88,18 +88,18 @@ class: center, middle
 #include <iostream>  
 #include <vector>  
 #define REP(x,y,z) for (long i=x;i<=y;i+=z)  
-using namespace std;  
-long N,a[50005],b[50005];  
-int main(){  
-	scanf("%ld",&N);  
-	b[1]=2;  
-	for (long i=2;i<=N;i++) b[i]=(b[i-1]*2)%10000;  
-	for (long i=1;i<=N;i++){  
-		long k=i-(long)round(sqrt(2*i+1))+1;  
-		a[i]=(a[k]*2+b[i-k]-1)%10000;  
-	}  
-	printf("%ld\n",a[N]);  
-}  
+using namespace std;
+long N, a[50005], b[50005];
+int main() {
+	scanf("%ld", &N);
+	b[1] = 2;
+	for (long i = 2; i <= N; i++) b[i] = (b[i - 1] * 2) % 10000;
+	for (long i = 1; i <= N; i++) {
+		long k = i - (long)round(sqrt(2 * i + 1)) + 1;
+		a[i] = (a[k] * 2 + b[i - k] - 1) % 10000;
+	}
+	printf("%ld\n", a[N]);
+}
 ```
 
 ---
