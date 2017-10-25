@@ -80,7 +80,7 @@ class: center, middle
 
 ## OI之妙
 
-```c++
+```cpp
 #include <algorithm>  
 #include <cmath>  
 #include <cstdio>  
@@ -88,8 +88,10 @@ class: center, middle
 #include <iostream>  
 #include <vector>  
 #define REP(x,y,z) for (long i=x;i<=y;i+=z)  
+
 using namespace std;
 long N, a[50005], b[50005];
+
 int main() {
 	scanf("%ld", &N);
 	b[1] = 2;
