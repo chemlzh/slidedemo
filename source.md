@@ -86,8 +86,7 @@ class: center, middle
 #include <cstdio>  
 #include <cstring>  
 #include <iostream>  
-#include <vector>  
-#define REP(x,y,z) for (long i=x;i<=y;i+=z)  
+#include <vector>    
 
 using namespace std;
 long N, a[50005], b[50005];
